@@ -11,7 +11,7 @@ This will be my first game.
 - [x] Ball w/ Physics
 - [x] Player Control
 - [ ] CPU AI (basic)
-- [ ] Score System
+- [x] Score System
 - [x] Field w/ Walls and center dashed line
 
 ## Fun stuff:
