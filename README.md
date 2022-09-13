@@ -13,7 +13,7 @@ This will be my first game.
 - [x] CPU AI (basic)
 - [x] Score System
 - [x] Field w/ Walls and center dashed line
-- [ ] Difficulty selector
+- [x] Difficulty selector
 
 ## Fun stuff:
 - [ ] Particle effects
