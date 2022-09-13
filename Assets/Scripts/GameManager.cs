@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -17,6 +18,13 @@ public class GameManager : MonoBehaviour
 	public Ball ball;
     private int CPU_Score;
     private int Player_Score;
+	public Dictionary<string, float> difficultySpeeds =  new Dictionary<string, float>(){
+        {"Easy", 5f},
+        {"Medium", 10f},
+        {"Hard", 15f} 
+    }; 
+    public enum Difficulty{ Easy, Medium, Hard }
+    public Difficulty difficulty;
     
     private void Awake() {
         _instance = this;

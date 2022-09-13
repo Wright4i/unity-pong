@@ -10,9 +10,10 @@ This will be my first game.
 - [x] Paddles (Player + CPU)
 - [x] Ball w/ Physics
 - [x] Player Control
-- [ ] CPU AI (basic)
+- [x] CPU AI (basic)
 - [x] Score System
 - [x] Field w/ Walls and center dashed line
+- [ ] Difficulty selector
 
 ## Fun stuff:
 - [ ] Particle effects

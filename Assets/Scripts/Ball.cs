@@ -5,17 +5,13 @@ using System.Collections;
 public class Ball : MonoBehaviour
 {
     private Rigidbody2D rb2d;
-    private Dictionary<string, float> difficultySpeeds =  new Dictionary<string, float>(){
-        {"Easy", 5f},
-        {"Medium", 10f},
-        {"Hard", 15f} 
-    }; 
-    public enum Difficulty{ Easy, Medium, Hard }
-    public Difficulty difficulty;
+    private GameManager GM;
 
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
+        GM = FindObjectOfType<GameManager>();
+
         ResetBall();
     }
 
@@ -28,8 +24,8 @@ public class Ball : MonoBehaviour
 
     public void ServeBall() {
 
-        float forceX = difficultySpeeds[difficulty.ToString()];
-        float forceY = difficultySpeeds[difficulty.ToString()] / 2f;
+        float forceX = GM.difficultySpeeds[GM.difficulty.ToString()];
+        float forceY = GM.difficultySpeeds[GM.difficulty.ToString()] / 2f;
         float rand = Random.Range(0f, 2f);
 
         if (rand < 1)

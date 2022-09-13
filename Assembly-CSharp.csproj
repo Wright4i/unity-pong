@@ -41,6 +41,17 @@
      <Compile Include="Assets\Scripts\OOB.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\Score.cs" />
+     <Compile Include="Assets\Scripts\CPU.cs" />
+     <Compile Include="Assets\Scripts\LeanTween\Framework\LeanTest.cs" />
+     <Compile Include="Assets\Scripts\LeanTween\Framework\LeanSmooth.cs" />
+     <Compile Include="Assets\Scripts\LeanTween\Framework\LeanAudio.cs" />
+     <Compile Include="Assets\Scripts\LeanTween\Framework\LTDescrOptional.cs" />
+     <Compile Include="Assets\Scripts\LeanTween\Framework\LeanTween.cs" />
+     <Compile Include="Assets\Scripts\LeanTween\Framework\LTDescr.cs" />
+     <Compile Include="Assets\Scripts\LeanTween\Framework\LTSeq.cs" />
+     <Compile Include="Assets\Scripts\LeanTween\Framework\LeanTweenExt.cs" />
+     <None Include="Assets\Scripts\LeanTween\ReadMe.txt" />
+     <None Include="Assets\Scripts\LeanTween\License.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
