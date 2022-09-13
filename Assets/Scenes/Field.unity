@@ -333,7 +333,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ball: {fileID: 710740095}
-  difficulty: 2
+  difficulty: 0
   currentDifficulty: {fileID: 860420393}
 --- !u!4 &189177983
 Transform:
@@ -1274,6 +1274,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 3110542169374483142, guid: c24214783ffee8a4ab0547afb9e3c2fa, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: c24214783ffee8a4ab0547afb9e3c2fa, type: 3}
@@ -1729,6 +1733,10 @@ PrefabInstance:
     - target: {fileID: 2332213076983355712, guid: c24214783ffee8a4ab0547afb9e3c2fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3110542169374483142, guid: c24214783ffee8a4ab0547afb9e3c2fa, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c24214783ffee8a4ab0547afb9e3c2fa, type: 3}
