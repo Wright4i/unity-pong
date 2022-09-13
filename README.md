@@ -4,6 +4,8 @@ I'm learning how to use Unity and program in C#.
 
 This will be my first game.
 
+![screen-gif](./sample.gif)
+
 # Goals:
 - [x] Setup basic project and git repo
 - [x] Background
