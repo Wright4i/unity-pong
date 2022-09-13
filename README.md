@@ -15,7 +15,7 @@ This will be my first game.
 - [x] Field w/ Walls and center dashed line
 - [x] Difficulty selector
 
-## Fun stuff:
+## Fun stuff to revisit later:
 - [ ] Particle effects
 - [ ] Sound
 - [ ] Settings
